@@ -5,9 +5,9 @@ description: >-
   An OpenCode-compatible Agent Skill that routes an Instagram, TikTok, or
   LinkedIn research goal through Jev, runs read-only searches with the user's
   local socai CLI and existing browser session, and returns source-linked
-  evidence plus a Markdown report. Requires Node 20+, an OpenRouter key with
-  Jev access, a supported socai CLI, and a signed-in browser when required by
-  the platform.
+  evidence plus a Markdown report. Requires Node 20+, a current socai CLI, a
+  browser session, and either OpenRouter Jev or a local System One-compatible
+  endpoint.
 scope:
   - project
 tags:
@@ -17,5 +17,5 @@ tags:
   - jev
 installation: >-
   npx skills add
-  https://github.com/socai-io/jev-social/tree/v0.1.5/skills/jev-social
+  https://github.com/socai-io/jev-social/tree/v0.1.8/skills/jev-social
   --agent opencode --yes
