@@ -17,5 +17,5 @@ tags:
   - jev
 installation: >-
   npx skills add
-  https://github.com/socai-io/jev-social/tree/v0.1.8/skills/jev-social
-  --agent opencode --yes
+  https://github.com/socai-io/jev-social/tree/v0.1.10/skills/jev-social
+  --agent opencode
